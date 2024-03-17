@@ -49,7 +49,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return true;
     }
     private class ImagePagerAdapter extends FragmentPagerAdapter {
-        private static final int NUM_PAGES = 1;
         public ImagePagerAdapter(FragmentManager fm) {
             super(fm);
         }
